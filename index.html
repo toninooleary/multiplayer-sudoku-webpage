@@ -16,20 +16,47 @@
         <div class="container">
             <div class="header">
                 <h1>Multiplayer Sudoku</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac orci cursus, dapibus est a, placerat lacus. Proin 
-                augue urna, malesuada et placerat vitae, maximus quis purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Sed dui nibh, varius in magna nec, pulvinar blandit sem. Cras ut dapibus elit, nec lacinia tortor. Nullam blandit porta 
-                consectetur. Phasellus placerat odio erat, ut aliquet velit dictum vel.</p>
+                <p>The logic-based game Sudoku is a slow paced puzzle game that involved a grid where you place numbers. This webpage demonstrates
+                    an exploration multiplayer variations with physical demos of proposed game ideas. These indend to change the dynamics of the
+                    traditional games by attempting to create a fun fast paced experience. 
+                </p>
             </div>
+            
             <div class="container-fluid">
                 <div class="row">
                     <h3>Physical Game ideas</h3>
                     <figure class="row">
-                        <figcaption>Morbi quis pulvinar diam. Morbi elit ipsum, tincidunt et tempus quis, viverra ac diam. 
-                            Duis viverra ipsum fermentum bibendum blandit. Nulla efficitur sapien mauris, a euismod orci 
-                            auctor vel. Integer ornare risus eget eleifend egestas. Interdum et malesuada fames ac ante 
-                            ipsum primis in faucibus</figcaption>
+                        <figcaption>These physical demonstrations are of two different variations of Sudoku. In figure 1, the game takes inspiration from 'tug-of-war', where the players undergo a series of matches.
+                            The winner of each moving a step closer towards their allocated goals. </figcaption>
+                            <figcaption> Figure 2, the game introduces 'Tetris' and 'four in a row' like mechanics. The players aim to fill a row in the grid. 
+                            Like Sudoku, there can only be one instance of each number within the row. Opponents can block each other by placing duplicate numbers, breaking the rules of the game.
+                            When a row is filled, the player who fills the final number in the row gains a point. This is repeated until the grid has no more empty squares.</figcaption>
                     </figure>
+                </div>
+                
+                <div class="row">           
+                    <h3>Game Rules</h3>
+                </div>
+                <div class="row rules">
+                    <div class="col-md-6">
+                        <h4>Figure 1 rules</h4>
+                        <ol>
+                            <li>Fill and complete grid before opponent</li>
+                            <li>Grid rows and columns can only contain 1 instance of each number</li>
+                            <li>When a player beats opponent, move player's position up 'step indicator'</li>
+                            <li>Once player reaches their final goal on 'step indicator', player wins</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Figure 2 rules</h4>
+                        <ol>
+                            <li>Form a line of six squares containing all of the six numbers</li>
+                            <li>Lines can be formed vertically and horizontally</li>
+                            <li>The player who completes the line gain the point</li>
+                            <li>Game ends when no more empty sqaures remain</li>
+                            <li>Player with the most points wins</li>
+                        </ol>
+                    </div>
                 </div>
 
                 <div class="row">
@@ -38,20 +65,14 @@
                             <source src="bunny.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <figcaption>Morbi quis pulvinar diam. Morbi elit ipsum, tincidunt et tempus quis, viverra ac diam. 
-                            Duis viverra ipsum fermentum bibendum blandit. Nulla efficitur sapien mauris, a euismod orci 
-                            auctor vel. Integer ornare risus eget eleifend egestas. Interdum et malesuada fames ac ante 
-                            ipsum primis in faucibus</figcaption>
+                        <figcaption>Figure 1: Tug-of-war variation</figcaption>
                     </figure>
                     <figure class="col-md-6 col-sm-12">
                         <video controls>
                             <source src="bunny.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                         </video>
-                        <figcaption>Morbi quis pulvinar diam. Morbi elit ipsum, tincidunt et tempus quis, viverra ac diam. 
-                            Duis viverra ipsum fermentum bibendum blandit. Nulla efficitur sapien mauris, a euismod orci 
-                            auctor vel. Integer ornare risus eget eleifend egestas. Interdum et malesuada fames ac ante 
-                            ipsum primis in faucibus</figcaption>
+                        <figcaption> Figure 2: tetris/four-in-a-row variation</figcaption>
                     </figure>
                 </div>
             </div>  

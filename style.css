@@ -18,6 +18,16 @@ div.row h3 {
     border-bottom: 1px solid black;
 }
 
+.rules {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.rules h4 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 .header h1 {
     border-bottom: 1px solid black;
     text-align: center;
